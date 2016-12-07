@@ -1,0 +1,19 @@
+*{
+  font-family: Sans-serif;  
+}
+
+.titre{
+  text-align:center;
+   
+}
+li{
+  color:#96E0FA;
+  list-style-type:none;
+  display:inline-block;
+  border-bottom:dashed;
+
+}
+header{
+  text-align:center;
+  
+}
