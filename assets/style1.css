@@ -1,19 +1,39 @@
 *{
-  font-family: Sans-serif;  
+  font-family: Sans-serif;
 }
 
 .titre{
   text-align:center;
-   
+     background-color:#EEEEEE;
 }
 li{
   color:#96E0FA;
   list-style-type:none;
   display:inline-block;
-  border-bottom:dashed;
+}
 
+ul a{
+  border-bottom:dashed;
+  
 }
 header{
+  wdth:1500px;
+  padding:1px;
   text-align:center;
   
+}
+.gauche a{
+  color:#96E0FA;
+  float:left;
+  border-bottom:dashed black;
+  text-decoration:none;
+}
+.droite a{
+  color:#96E0FA;
+  float:right;
+  border-bottom:dashed black;
+  text-decoration:none;
+}
+.informaticien{
+  float:left;
 }
