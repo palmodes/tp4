@@ -4,22 +4,27 @@
 
 .titre{
   text-align:center;
-     background-color:#EEEEEE;
+  background-color:#EEEEEE;
+  line-height:50px;
 }
 li{
   color:#96E0FA;
   list-style-type:none;
   display:inline-block;
+  
 }
 
 ul a{
-  border-bottom:dashed;
+  border-bottom:dashed black;
+  text-decoration:none;
   
 }
 header{
   wdth:1500px;
   padding:1px;
   text-align:center;
+  margin-right:auto;
+  margin-left:auto;
   
 }
 .gauche a{
@@ -36,4 +41,7 @@ header{
 }
 .informaticien{
   float:left;
+}
+.informaticien:first-child{
+  text-align:center;
 }
